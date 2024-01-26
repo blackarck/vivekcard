@@ -1,0 +1,27 @@
+/*
+ * Custom CSS
+ */
+
+ body{
+  margin:0; 
+ }
+ :root {
+    --bs-body-bg: var(--bs-gray-100);
+  }
+
+  i.bi {
+    font-size: 2em;
+  }
+
+  .circle-img {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  .circle-img img {
+    height: 100%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+  }
+  
