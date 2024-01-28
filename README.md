@@ -1,11 +1,11 @@
 # Visitng Card
 
-##Project Description
+## Project Description
 
 This project is a simple HTML page with bootstrap delievered styling , that display visiting card information to the user.
 Page will be hosted as a static site. URL of the page will be displayed as QR on visiting card. End user can scan that to view this URL. 
 
-##Functions
+## Functions
 
 - Photo - Photograph will be picked up from images folder ( self.jpg)
 - Email ID - When user taps this default mail program will open
@@ -16,4 +16,8 @@ Page will be hosted as a static site. URL of the page will be displayed as QR on
 - Github
 - Google Location, on tapping map will open
 
-  
+  ## Screenshot
+  ![Project Screenshot](/screenshot.jpg?raw=true "Optional Title")
+
+## View Output
+https://vivekcard-b3ec8.web.app/
