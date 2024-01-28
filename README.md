@@ -21,3 +21,10 @@ Page will be hosted as a static site. URL of the page will be displayed as QR on
 
 ## View Output
 https://vivekcard-b3ec8.web.app/
+
+## Installation
+
+Clone this repo and make necessary changes in index.html file. Place your picture and place it as self in images folder. Host the site to a suitable location. 
+
+Thanks
+Vivek
