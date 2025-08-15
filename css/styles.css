@@ -2,26 +2,60 @@
  * Custom CSS
  */
 
- body{
-  margin:0; 
- }
- :root {
-    --bs-body-bg: var(--bs-gray-100);
-  }
+body {
+  background: radial-gradient(
+    1200px 800px at 10% 5%,
+    #eef4ff 0%,
+    #ffffff 35%,
+    #f8f9fa 100%
+  );
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 24px rgba(13, 110, 253, 0.15);
+}
+.tagline {
+  color: #495057;
+}
+.card-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #f7f9ff 40%, #eef4ff 100%);
+  border: 1px solid rgba(13, 110, 253, 0.08);
+}
+.chip {
+  font-size: 0.85rem;
+}
+.list-icon {
+  width: 2rem;
+  display: inline-flex;
+  justify-content: center;
+}
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.shadow-soft {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+.link-quiet {
+  color: inherit;
+  text-decoration: none;
+}
+.link-quiet:hover {
+  color: #0d6efd;
+}
 
-  i.bi {
-    font-size: 2em;
-  }
+.circle-img {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
 
-  .circle-img {
-    width: 60px;
-    height: 60px;
-    overflow: hidden;
-  }
-  
-  .circle-img img {
-    height: 100%;
-    transform: translateX(-50%);
-    margin-left: 50%;
-  }
-  
+.circle-img img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
